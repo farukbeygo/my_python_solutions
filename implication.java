@@ -1,7 +1,7 @@
 public class java_test {
     // impication s.t. A implies B
-    public static boolean sleepIn(boolean weekday, boolean vacation) {
-        return (!weekday || vacation);
+    public static boolean Implies(boolean A, boolean B) {
+        return (!A || B);
     }
 
 }
